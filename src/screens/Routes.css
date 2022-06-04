@@ -1,0 +1,183 @@
+.header-div {
+  height: 100px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  width: 100%;
+  z-index: 100;
+  background: #fff;
+}
+.animated-text {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  height: calc(100vh - 100px);
+  background-color: aquamarine;
+  padding: 48px 0px;
+  width: 100%;
+  font-family: monospace;
+  font-weight: 1000;
+  text-align: center;
+}
+.header-nav {
+  font-size: 1.25em;
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chalo-logo {
+  width: 100px;
+  height: 60px;
+}
+.options {
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+.divider {
+  opacity: 0.25;
+}
+
+.app-body {
+  height: calc(100vh - 100px);
+  background-color: aqua;
+  display: flex;
+  width: 100%;
+}
+.add-routes-div {
+  width: 50%;
+  background-color: aquamarine;
+  height: 100%;
+}
+.add-routes-wrapper {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-color: green;
+  display: flex;
+}
+.map-view-div {
+  width: 50%;
+  background-color: azure;
+  height: 100%;
+}
+
+.add-routes {
+  height: 100%;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+}
+.route-name-input {
+  margin: 12px 0px;
+}
+.edit-route-input {
+  margin: 12px 0px;
+}
+.route-status-input {
+  margin: 12px 0px;
+}
+.input-form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.edit-input-form {
+  display: flex;
+  flex-direction: column;
+}
+.add-routes-text {
+  font-size: 20px;
+}
+.route-name {
+  margin: 12px 0px;
+}
+.submit-button {
+  margin-top: 40px !important;
+}
+.add-stop-button {
+  margin-top: 20px !important;
+}
+.stop-div {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.routes-card {
+  width: 400px;
+  border: 1px solid gainsboro;
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  box-shadow: 0 2px 8px 0 rgba(173, 175, 179, 0.25);
+}
+.stops-card-expanded {
+  height: 180px;
+}
+.stops-card {
+  height: 30px;
+}
+.card-name-div {
+  padding: 16px;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(208, 232, 232, 0.5);
+}
+.icons-div {
+  display: flex;
+  gap: 16px;
+  cursor: pointer;
+}
+.stops-div {
+  padding: 0px 16px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 14px;
+  justify-content: space-between;
+}
+.arrow-icons {
+  font-size: 12px;
+  margin: 2px 0px 0px 6px !important;
+}
+.ant-steps {
+  padding: 16px !important;
+  overflow: auto !important;
+  height: 150px !important;
+}
+.location-search-input {
+  width: 100%;
+  height: 32px !important;
+  margin: 0;
+  padding: 0;
+  font-variant: tabular-nums;
+  list-style: none;
+  font-feature-settings: "tnum", "tnum";
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  min-width: 0;
+  padding: 4px 11px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  line-height: 1.5715;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+.autocomplete-dropdown-container {
+  width: 100% !important;
+  overflow: auto !important;
+}
+.helper-text{
+  color: red;
+  font-size: 12px;
+}
