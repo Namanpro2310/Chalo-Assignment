@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Chalo-Assignment/static/css/main.4f097627.css",
+    "main.js": "/Chalo-Assignment/static/js/main.cc93f600.js",
+    "static/js/787.968841e8.chunk.js": "/Chalo-Assignment/static/js/787.968841e8.chunk.js",
+    "static/media/bus-feature.jpeg": "/Chalo-Assignment/static/media/bus-feature.55814fa360f0a7feaf75.jpeg",
+    "static/media/CHALO_Logo.jpeg": "/Chalo-Assignment/static/media/CHALO_Logo.b9cf5504ae438d04c60a.jpeg",
+    "index.html": "/Chalo-Assignment/index.html",
+    "main.4f097627.css.map": "/Chalo-Assignment/static/css/main.4f097627.css.map",
+    "main.cc93f600.js.map": "/Chalo-Assignment/static/js/main.cc93f600.js.map",
+    "787.968841e8.chunk.js.map": "/Chalo-Assignment/static/js/787.968841e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f097627.css",
+    "static/js/main.cc93f600.js"
+  ]
+}
