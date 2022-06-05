@@ -55,9 +55,13 @@ const AddRoute = ({ handleAddRoute }) => {
     if (!route.name.trim()) {
       setNameErrorMsg("Route name is required.");
       return;
-    } else if (route.stops.length < 2 || route.stops.includes("undefined")) {
+    } else if (route.stops.length < 2) {
       setNameErrorMsg("");
       setStopsErrorMsg("Atleast 2 stops are required to create a route.");
+      return;
+    } else if (route.stops.includes("undefined")) {
+      setNameErrorMsg("");
+      setStopsErrorMsg("Please enter a valid stop.");
       return;
     }
     setNameErrorMsg("");
