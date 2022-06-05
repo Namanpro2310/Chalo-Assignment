@@ -38,7 +38,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename="/Chalo-Assignment">
+      <BrowserRouter>
         <Header />
         <Routes>
           <Route path="/" element={<HomeScreen />} />
