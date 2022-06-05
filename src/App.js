@@ -38,7 +38,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename="/Chalo-Assignment">
         <Header />
         <Routes>
           <Route path="/" element={<HomeScreen />} />
